@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Blog Tech</title>
+    <title>Jérémie Poujol | Azure & Microsoft 365 Expert</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
@@ -14,6 +14,14 @@
             color: white;
             padding: 80px 0;
             text-align: center;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            opacity: 0.8;
         }
         .card {
             transition: transform 0.3s ease-in-out;
@@ -35,14 +43,14 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">Blog Tech</a>
+            <a class="navbar-brand" href="#">Jérémie Poujol</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#">Accueil</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Articles</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Articles IT</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">À propos</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
                 </ul>
@@ -53,41 +61,42 @@
     <!-- Section Hero -->
     <section class="hero">
         <div class="container">
-            <h1>Bienvenue sur mon Blog Tech 🚀</h1>
-            <p>Retrouvez des articles sur les dernières tendances en développement et technologies</p>
+            <h1>Jérémie Poujol</h1>
+            <p>☁ Azure Cloud & Microsoft 365 Expert | MCT Certified</p>
+            <p>Partage d'expertise en Cloud, DevOps et Sécurité IT</p>
         </div>
     </section>
 
     <!-- Section Articles -->
     <div class="container mt-5">
-        <h2 class="text-center mb-4">Derniers Articles</h2>
+        <h2 class="text-center mb-4">Articles IT Récents</h2>
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
-                    <img src="https://source.unsplash.com/400x250/?technology" class="card-img-top" alt="Article">
+                    <img src="https://source.unsplash.com/400x250/?powershell,code" class="card-img-top" alt="Article PowerShell">
                     <div class="card-body">
-                        <h5 class="card-title">Introduction à GitHub Pages</h5>
-                        <p class="card-text">Découvrez comment héberger un site web gratuitement avec GitHub Pages.</p>
+                        <h5 class="card-title">Automatiser vos tâches avec PowerShell</h5>
+                        <p class="card-text">Découvrez comment utiliser PowerShell pour automatiser vos processus IT.</p>
                         <a href="#" class="btn btn-primary">Lire plus</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="https://source.unsplash.com/400x250/?coding" class="card-img-top" alt="Article">
+                    <img src="https://source.unsplash.com/400x250/?azure,cloud" class="card-img-top" alt="Article Azure Key Vault">
                     <div class="card-body">
-                        <h5 class="card-title">10 Extensions VS Code incontournables</h5>
-                        <p class="card-text">Boostez votre productivité avec ces extensions essentielles pour Visual Studio Code.</p>
+                        <h5 class="card-title">Sécuriser ses secrets avec Azure Key Vault</h5>
+                        <p class="card-text">Gérez vos clés et certificats en toute sécurité avec Azure Key Vault.</p>
                         <a href="#" class="btn btn-primary">Lire plus</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="https://source.unsplash.com/400x250/?hacker" class="card-img-top" alt="Article">
+                    <img src="https://source.unsplash.com/400x250/?cybersecurity,security" class="card-img-top" alt="Article DKIM SPF DMARC">
                     <div class="card-body">
-                        <h5 class="card-title">Sécuriser son code avec GitHub Actions</h5>
-                        <p class="card-text">Automatisez vos tests et contrôles de sécurité grâce aux GitHub Actions.</p>
+                        <h5 class="card-title">Configurer DKIM, SPF et DMARC pour protéger vos emails</h5>
+                        <p class="card-text">Apprenez à sécuriser votre domaine contre le phishing et le spoofing.</p>
                         <a href="#" class="btn btn-primary">Lire plus</a>
                     </div>
                 </div>
@@ -98,12 +107,17 @@
     <!-- Section À Propos -->
     <div class="container mt-5">
         <h2 class="text-center">À propos</h2>
-        <p class="text-center">Je suis un passionné de développement web et de technologies modernes. À travers ce blog, je partage mes découvertes et tutoriels pour aider la communauté.</p>
+        <div class="row">
+            <div class="col-md-8 mx-auto text-center">
+                <p>Je suis un expert Cloud spécialisé en **Microsoft Azure et Microsoft 365**, avec une passion pour l’automatisation, la cybersécurité et les bonnes pratiques DevOps.</p>
+                <p>Ce blog est un espace où je partage mes connaissances, astuces et retours d’expérience sur les technologies Microsoft et les défis du monde IT.</p>
+            </div>
+        </div>
     </div>
 
     <!-- Pied de Page -->
     <footer>
-        <p>&copy; 2025 Mon Blog Tech | Construit avec 💻 et ☕</p>
+        <p>&copy; 2025 Jérémie Poujol | Azure & Microsoft 365 | Construit avec 💻 et ☕</p>
     </footer>
 
     <!-- Bootstrap JS -->
